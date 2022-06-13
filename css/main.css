@@ -1,0 +1,65 @@
+/* unidades de medidas relativas  
+rem - em*/
+
+/* rem= tomar el valor del body */
+
+
+/* em= no toma el valor del html, sino que toma el valor de contenedor padre */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body */
+
+body {
+    background-color: #f8ced8;
+}
+
+/* estilos header */
+
+header h1 {
+    text-align: center;
+}
+
+/* estilos al nav */
+nav {
+    margin: 2.5rem;
+}
+nav ul {
+display: flex;
+justify-content: space-evenly;
+
+}
+
+nav ul li{
+    list-style: none;
+    background-color: whitesmoke;
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+/* estilos de main */
+
+.mainNosotros {
+    display: grid;
+    grid-template-areas: "mainP mainP"
+                          "imagen1 imagen2"
+                        "imagen3 imagen4"
+                        "parrafo parrafo";
+}
+
+.mainP {
+    grid-area: mainP;
+    
+}
+
+.imagen1 {
+    grid-area: imagen1;
+
+}
+
+imagen2 {
+    grid-area: imagen2;
+}
